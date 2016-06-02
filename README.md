@@ -4,11 +4,18 @@ This is my introduction and education of shiny apps in R. My shiny apps are base
 
 ## Tutorials
 
-Video [tutorials](http://shiny.rstudio.com/tutorial/) and [written](http://shiny.rstudio.com/tutorial/lesson1/)!
+There are tutorials in [video](http://shiny.rstudio.com/tutorial/) and [written](http://shiny.rstudio.com/tutorial/lesson1/) forms available.
 
 I have chosen to wrap both the `ui.R` and `server.R` scripts into one function that are called at the end of the script.
 
 *e.g.*
 ```R
 shinyApp(ui = ui, server = server)
+```
+
+Within `R`, an app can be run using the following:
+
+```R
+library(shiny)
+runApp('app_1.R')
 ```
