@@ -2,6 +2,8 @@
 
 This is my introduction and education of shiny apps in R. My shiny apps are based upon the tutorials by the kind folks at [Rstudio](http://shiny.rstudio.com/).
 
+Someday, I will get around to implementing some shiny apps for data sets that I have previously published.
+
 ## Tutorials
 
 There are tutorials in [video](http://shiny.rstudio.com/tutorial/) and [written](http://shiny.rstudio.com/tutorial/lesson1/) forms available.
