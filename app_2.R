@@ -97,17 +97,8 @@ ui <- fluidPage(
 )
 
 server <- function(input, output) {
-
-  # Expression that generates a histogram. The expression is
-  # wrapped in a call to renderPlot to indicate that:
-  #
-  #  1) It is "reactive" and therefore should re-execute automatically
-  #     when inputs change
-  #  2) Its output type is a plot
-
+    ## this is not the server you were looking for, but it does fool R.
 }
-
-
 
 # Run the application
 shinyApp(ui = ui, server = server)
