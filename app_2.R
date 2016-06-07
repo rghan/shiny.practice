@@ -3,11 +3,13 @@ ui <- fluidPage(
 
   titlePanel("Buttons and widgets and things"),
 
-  HTML("The buttons and widgets and things found within this app,", 
+  HTML("<p>The buttons and widgets and things found within this app,", 
         "do not actually serve any function or offer any value, but if",
         "selecting, entering or otherwise interacting with the content herein,",
-        "you may learn how to make a shiny app someday."),
-  
+        "you may learn how to make a shiny app someday.</p>"),
+
+  HTML("<p>App interface based on the <a href='http://shiny.rstudio.com/tutorial/lesson3/', target='blank'>Rstudio tutorial-2</a>. A more detailed <a href='http://shiny.rstudio.com/gallery/widget-gallery.html', target='blank'>widget-gallery</a> is also available.</p>"),
+
   br(),
   br(),
 
